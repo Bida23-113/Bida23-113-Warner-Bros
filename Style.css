@@ -59,3 +59,24 @@ footer {
     bottom: 0;
     width: 100%;
 }
+.movie-card {
+    width: 250px;
+    background-color: black;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+}
+
+.movie-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px 10px 0 0;
+}
+
+.movie-card h2, .movie-card p {
+    padding: 10px;
+    margin: 0;
+}
+
+/* Adjust the styles as needed */
