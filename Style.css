@@ -78,5 +78,47 @@ footer {
     padding: 10px;
     margin: 0;
 }
+.trending {
+    background-color: #1a1a1a; /* Dark grey */
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.suggestions {
+    background-color: #222222; /* Slightly lighter grey */
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.trending h2, .suggestions h2 {
+    color: neonblue;
+    margin-bottom: 20px;
+}
+
+.trending .movie-card, .suggestions .movie-card {
+    background-color: black;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s;
+}
+
+.trending .movie-card:hover, .suggestions .movie-card:hover {
+    transform: scale(1.05);
+}
+
+.trending .movie-card img, .suggestions .movie-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px 10px 0 0;
+}
+
+.trending .movie-card h2, .trending .movie-card p,
+.suggestions .movie-card h2, .suggestions .movie-card p {
+    padding: 10px;
+    margin: 0;
+    color: white;
+}
 
 /* Adjust the styles as needed */
