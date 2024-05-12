@@ -59,3 +59,38 @@ footer p {
 .neonblue {
     color: neonblue;
 }
+/* Assuming the logo is an image inside the header */
+
+header {
+    background-color: black;
+    padding: 20px;
+}
+
+/* Adjust the width and height of the logo */
+header img {
+    width: 200px; /* Adjust to your desired width */
+    height: auto; /* Maintain aspect ratio */
+}
+
+/* Align the logo to the left */
+header img {
+    float: left;
+    margin-right: 20px; /* Add some space between logo and navigation */
+}
+
+/* Center the logo horizontally */
+header img {
+    display: block;
+    margin: 0 auto;
+}
+
+/* Add a border around the logo */
+header img {
+    border: 2px solid white;
+    border-radius: 50%; /* To make it circular, adjust as needed */
+}
+
+/* Add shadow effect to the logo */
+header img {
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
