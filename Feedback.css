@@ -51,3 +51,14 @@ button {
 button:hover {
     background-color: #666;
 }
+
+#thankYouMessage {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+    color: #0f0;
+}
+
+.hidden {
+    display: none;
+}
