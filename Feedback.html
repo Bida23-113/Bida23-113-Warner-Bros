@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Feedback Form</title>
-    <link rel="Stylesheet" href="Feedback.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="feedback-container">
         <h1>Website Feedback</h1>
-        <form action="/submit_feedback" method="POST">
+        <form id="feedbackForm">
             <label for="name">Name:</label>
             <input type="text" id="name" name="name" required>
 
@@ -21,6 +21,8 @@
 
             <button type="submit">Submit</button>
         </form>
+        <p id="thankYouMessage" class="hidden">Thank you for your feedback!</p>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
